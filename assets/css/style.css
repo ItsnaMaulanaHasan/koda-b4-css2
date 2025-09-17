@@ -1,0 +1,234 @@
+* {
+  font-family: "Open Sans";
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+button {
+  font-weight: 400;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px 40px;
+  transition: transform 0.3s ease-in-out;
+  background: transparent;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.sosmed {
+  width: 40px;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sosmed:hover {
+  transform: scale(1.1);
+}
+
+/* navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  height: 60px;
+  align-content: center;
+  box-shadow: 0 4px 10px #0000001a;
+}
+
+nav > span {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 5rem;
+}
+
+nav > ul {
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  top: -4px;
+  margin-right: 5rem;
+}
+
+nav > ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+/* hero */
+#hero {
+  margin-top: 4rem;
+  justify-items: center;
+}
+
+.hero-moto {
+  max-width: 900px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hero-btn {
+  margin-top: 2rem;
+}
+
+.hero-img {
+  margin-top: 3rem;
+}
+
+.hero-img div {
+  display: inline;
+  margin: 0px 5px;
+}
+
+.hero-img div > img {
+  width: 300px;
+}
+
+.hero-text {
+  margin-top: 3rem;
+  max-width: 960px;
+  text-align: center;
+}
+
+/* about */
+#about {
+  margin-top: 10rem;
+  height: 500px;
+}
+
+.about-wrap {
+  position: relative;
+}
+
+.about-wrap div {
+  display: inline-block;
+}
+
+.about-text {
+  text-align: start;
+  width: 500px;
+}
+
+.about-img > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 400px;
+}
+
+/* portofolio */
+#portofolio {
+  text-align: center;
+}
+
+.porto-text {
+  margin-bottom: 2rem;
+}
+
+.porto-btn {
+  margin-bottom: 2rem;
+}
+
+.porto-img div {
+  display: inline;
+  margin: 0px 5px;
+}
+
+.porto-img div > img {
+  width: 300px;
+}
+
+/* subscribe */
+#subscribe {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.sub-wrap {
+  position: relative;
+}
+
+.sub-text {
+  text-align: start;
+  width: 500px;
+}
+
+.sub-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sub-form input {
+  color: #fff;
+  border: 1px solid;
+  padding: 0 10px;
+  width: 350px;
+  height: 35px;
+}
+
+.sub-form div {
+  margin-bottom: 1rem;
+}
+
+/* footer */
+footer {
+  margin-top: 5rem;
+}
+
+#contact {
+  padding: 100px;
+  text-align: center;
+  background-image: url(../img/img8.png);
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+#contact div {
+  background: transparent;
+  color: #000;
+}
+
+.contact-btn {
+  margin-top: 2rem;
+  color: #000;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 2;
+  width: 70px;
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+}
